@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { useCart } from "./CartContext"
+import { useCart } from "../CartContext"
 
 export default function Checkout() {
   const { clearCart, cartTotal } = useCart() // Use the cart state and total from your context

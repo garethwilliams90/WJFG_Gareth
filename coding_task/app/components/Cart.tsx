@@ -1,14 +1,12 @@
 "use client"
 
 import React, { useEffect, useState } from "react"
-import { useCart } from "./CartContext" // Import the useCart hook from your CartContext
+import { useCart } from "../CartContext" // Import the useCart hook from your CartContext
 import CartIncrement from "./CartIncrement"
 
 export default function Cart() {
   const cart = useCart() // Use the cart state from your context
   const [cartTotal, setCartTotal] = useState(null)
-
-  console.log(cart)
 
   useEffect(() => {
     const total = cart.cart.reduce((acc, item) => {

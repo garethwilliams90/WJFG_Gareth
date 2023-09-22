@@ -1,6 +1,6 @@
 "use client"
 
-import { useCart } from "./CartContext"
+import { useCart } from "../CartContext"
 
 export default function CartIncrement({ product }) {
   const { addToCart, removeFromCart } = useCart()

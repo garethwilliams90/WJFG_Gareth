@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import Loading from "./Loading"
-import { useCart } from "./CartContext"
+import { useCart } from "../CartContext"
 
 export default function Products() {
   const [error, setError] = useState(null)

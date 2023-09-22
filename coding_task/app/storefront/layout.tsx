@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { CartProvider } from "../components/CartContext"
+import { CartProvider } from "../CartContext"
 
 export default async function Layout({
   children,

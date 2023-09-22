@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { CartProvider } from "./components/CartContext"
+import { CartProvider } from "./CartContext"
 import React from "react"
 
 export default function Home() {

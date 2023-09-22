@@ -1,7 +1,7 @@
 "use client"
 
 import Cart from "../components/Cart"
-import { CartProvider, useCart } from "../components/CartContext"
+import { CartProvider, useCart } from "../CartContext"
 import Checkout from "../components/Checkout"
 import Products from "../components/Products"
 
